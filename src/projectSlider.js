@@ -4,6 +4,7 @@ import Toggle_text from './Toggle_text';
 import Char_counter from './Char_counter';
 import Show_hide_pass from './Show_hide_pass';
 import To_do_list from './To_do_list';
+import Random_moti_gen from './Random_moti_gen';
 
 const ProjectSlider = () => {
   const components = [
@@ -12,6 +13,7 @@ const ProjectSlider = () => {
     { name: 'Char Counter', element: <Char_counter /> },
     { name: 'Show / Hide Pass', element: <Show_hide_pass /> },
     { name: 'To Do List', element: <To_do_list /> },
+    { name: 'Quotes', element: <Random_moti_gen /> },
   ];
 
   const [index, setIndex] = useState(0);
